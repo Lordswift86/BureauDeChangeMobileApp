@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">694490456093-8mshu7srjuq3agli5np88k30j5d8teqt.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://aboki-cae23.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">694490456093</string>
+    <string name="google_api_key" translatable="false">AIzaSyCZxiiir8ZY9cwG70G48cMs8o9Z4kZpfKs</string>
+    <string name="google_app_id" translatable="false">1:694490456093:android:ef1406635cfe31a56566f4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCZxiiir8ZY9cwG70G48cMs8o9Z4kZpfKs</string>
+    <string name="google_storage_bucket" translatable="false">aboki-cae23.appspot.com</string>
+    <string name="project_id" translatable="false">aboki-cae23</string>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "694490456093",
+    "firebase_url": "https://aboki-cae23.firebaseio.com",
+    "project_id": "aboki-cae23",
+    "storage_bucket": "aboki-cae23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694490456093:android:ef1406635cfe31a56566f4",
+        "android_client_info": {
+          "package_name": "com.example.Flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694490456093-8mshu7srjuq3agli5np88k30j5d8teqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZxiiir8ZY9cwG70G48cMs8o9Z4kZpfKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694490456093-8mshu7srjuq3agli5np88k30j5d8teqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cyberspace.cyberpayflutter" >
+4
+5    <uses-sdk android:minSdkVersion="16" />
+5-->/Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml
+6
+7    <application>
+7-->/Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml:5:5-7:19
+8        <activity android:name="com.cyberspace.cyberpayflutter.PaymentActivity" />
+8-->/Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml:6:9-62
+8-->/Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml:6:19-50
+9    </application>
+10
+11</manifest>

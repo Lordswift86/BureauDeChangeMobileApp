@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml:2:1-9:12
+	package
+		ADDED from /Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml:5:5-7:19
+activity#com.cyberspace.cyberpayflutter.PaymentActivity
+ADDED from /Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml:6:9-62
+	android:name
+		ADDED from /Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml:6:19-50
+uses-sdk
+INJECTED from /Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml
+INJECTED from /Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/flutter/.pub-cache/hosted/pub.dartlang.org/cyberpayflutter-1.0.3/android/src/main/AndroidManifest.xml
