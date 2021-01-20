@@ -1,3 +1,4 @@
+import 'package:Flutter/screens/signin.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:Flutter/screens/buyPage.dart';
@@ -64,11 +65,26 @@ class _MyDrawerState extends State<MyDrawer> {
           color: Colors.grey[500],
           child: ListTile(
               title: Text(
-                'Buy Currency',
+                'Profile',
                 style: TextStyle(color: Colors.grey[900]),
               ),
               onTap: () {
-                Navigator.pushReplacement(
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => ProfilePage()),
+                );
+              }),
+        ),
+        Divider(
+          height: 1,
+        ),
+        Container(
+          color: Colors.grey[500],
+          child: ListTile(
+              title: Text('Sell Currency',
+                  style: TextStyle(color: Colors.grey[900])),
+              onTap: () {
+                Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => BuyPage()),
                 );
@@ -157,6 +173,8 @@ class _MyDrawerState extends State<MyDrawer> {
               ),
               onTap: () {
                 FirebaseAuth.instance.signOut();
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => SignInPage()));
               }),
         ),
       ]),

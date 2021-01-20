@@ -25,7 +25,7 @@ class UserData {
   var _phone;
   String _password;
   var isRegistered = true;
-
+  var ctx;
   String get phone => _phone;
 
   set phone(String value) => _phone = value;

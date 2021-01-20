@@ -5,6 +5,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:Flutter/screens/homePage.dart';
 import 'package:Flutter/screens/signin.dart';
 import 'package:Flutter/screens/signup.dart';
+import 'package:Flutter/sharedData/DataPage.dart';
 
 class Auth extends StatefulWidget {
   @override
@@ -13,39 +14,34 @@ class Auth extends StatefulWidget {
 
 class _AuthState extends State<Auth> {
   final _auth = FirebaseAuth.instance;
+  final _scaffoldKey = GlobalKey<ScaffoldState>();
+  UserData userdata = UserData();
 
-  void _submitAuthForm(
-    String name,
-    String email,
-    String phone,
-    String password,
-    bool isRegistered,
-    BuildContext ctx,
-  ) async {
+  void _submitAuthForm() async {
     //  AuthResult authResult;
     User user;
     try {
       // if not previously registered snackbar pops to
       // redirect to another page
-      if (isRegistered) {
+      if (userdata.isRegistered) {
         user = (await _auth.signInWithEmailAndPassword(
-                email: email, password: password))
+                email: userdata.email, password: userdata.password))
             .user;
-        print(email);
+        print(userdata.email);
       } else {
         // displays snackbar and navigates to screen on OK
-        Scaffold.of(ctx).showSnackBar(SnackBar(
+        Scaffold.of(userdata.ctx).showSnackBar(SnackBar(
             content: Text('Email does not exist please Signup'),
             duration: Duration(seconds: 10),
             action: SnackBarAction(
               label: 'OK',
               onPressed: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (context) => Home()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => SignupPage()));
               },
             ),
             backgroundColor: Theme.of(context).errorColor));
-
+        print(userdata.isRegistered);
         // user = (await _auth.createUserWithEmailAndPassword(
         //         email: email, password: password))
         //     .user;
@@ -61,13 +57,13 @@ class _AuthState extends State<Auth> {
       if (err.message != null) {
         message = err.message;
       }
-      Scaffold.of(ctx).showSnackBar(SnackBar(
+      Scaffold.of(userdata.ctx).showSnackBar(SnackBar(
           content: Text(message),
           backgroundColor: Theme.of(context).errorColor));
     } catch (err) {
       print(err);
     }
-    print(email);
+    print(userdata.email);
     // print(name);
     // print(password);
     // print(phone);
@@ -76,7 +72,7 @@ class _AuthState extends State<Auth> {
   @override
   Widget build(BuildContext ctx) {
     return Scaffold(
-      body: SignInPage(_submitAuthForm),
+      body: SignInPage(),
     );
   }
 
@@ -123,4 +119,16 @@ class _AuthState extends State<Auth> {
 //     // print(password);
 //     // print(phone);
 //   }
+}
+
+class help extends StatefulWidget {
+  @override
+  _helpState createState() => _helpState();
+}
+
+class _helpState extends State<help> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
 }

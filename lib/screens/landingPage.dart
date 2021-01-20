@@ -54,7 +54,7 @@ class LandingPage extends StatelessWidget {
                   child: Buttons('Login', () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => Auth()),
+                      MaterialPageRoute(builder: (context) => SignInPage()),
                     );
                   }),
                 ),

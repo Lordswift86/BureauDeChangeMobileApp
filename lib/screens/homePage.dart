@@ -1,15 +1,13 @@
+import 'package:flutter/material.dart';
 import 'dart:ui';
+import 'package:flag/flag.dart';
+import 'package:date_time_format/date_time_format.dart';
+import 'package:double_back_to_close/double_back_to_close.dart';
 
 import 'package:Flutter/screens/buyPage.dart';
 import 'package:Flutter/screens/sellPage.dart';
 import 'package:Flutter/widgets/drawer/drawer.dart';
-import 'package:flutter/gestures.dart';
-import 'package:flutter/material.dart';
-import 'package:date_time_format/date_time_format.dart';
-import 'package:flag/flag.dart';
-
 import 'package:Flutter/widgets/buttons1.dart';
-import 'package:Flutter/screens/signup.dart';
 import '../widgets/appbar.dart';
 import '../sharedData/DataPage.dart';
 
@@ -20,6 +18,8 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   DataPage dataPage = DataPage();
+  bool allowClose = false;
+
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -30,201 +30,212 @@ class _HomeState extends State<Home> {
           currentFocus.unfocus();
         }
       },
-      child: Scaffold(
-        drawer: MyDrawer(),
-        backgroundColor: Color.fromRGBO(25, 25, 25, 21),
-        appBar: PreferredSize(
-          preferredSize: Size.fromHeight(100),
-          child: Padding(
-            padding: const EdgeInsets.only(top: 10),
-            child: MyAppBar('Home'),
+      // double press back button to close app
+      child: DoubleBack(
+        condition: allowClose,
+        onConditionFail: () {
+          setState(() {
+            allowClose = true;
+          });
+        },
+        child: Scaffold(
+          drawer: MyDrawer(),
+          backgroundColor: Color.fromRGBO(25, 25, 25, 21),
+          appBar: PreferredSize(
+            preferredSize: Size.fromHeight(100),
+            child: Padding(
+              padding: const EdgeInsets.only(top: 10),
+              child: MyAppBar('Home'),
+            ),
           ),
-        ),
-        body: SingleChildScrollView(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: [
-              Container(
-                color: Colors.grey[800],
-                padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
-                child: Column(
-                  children: [
-                    Container(
-                      color: Colors.grey[900],
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 135, vertical: 10),
-                      child: Text(
-                        'Exchange Rate',
-                        style: TextStyle(fontSize: 16),
-                      ),
-                    ),
-                    DataTable(columnSpacing: 30.0, columns: [
-                      DataColumn(
-                        label: Row(
-                          children: [
-                            myText('Naira'),
-                            Flag(
-                              'NG',
-                              width: 25,
-                              height: 15,
-                            ),
-                          ],
-                        ),
-                      ),
-                      DataColumn(
-                        label: Row(
-                          children: [
-                            myText('USD'),
-                            Flag(
-                              'US',
-                              width: 25,
-                              height: 15,
-                            ),
-                          ],
-                        ),
-                      ),
-                      DataColumn(
-                        label: Row(children: [
-                          myText('GBP'),
-                          Flag(
-                            'GB',
-                            width: 25,
-                            height: 15,
-                          ),
-                        ]),
-                      ),
-                      DataColumn(
-                        label: Row(children: [
-                          myText('Euro'),
-                          Flag(
-                            'EU',
-                            width: 25,
-                            height: 15,
-                          ),
-                        ]),
-                      ),
-                      DataColumn(
-                        label: Row(children: [
-                          myText('CAD'),
-                          Flag(
-                            'CA',
-                            width: 25,
-                            height: 15,
-                          ),
-                        ]),
-                      )
-                    ], rows: [
-                      DataRow(
-                        cells: [
-                          DataCell(myText('Date')),
-                          DataCell(myText('Buy/Sell')),
-                          DataCell(myText('Buy/Sell')),
-                          DataCell(myText('Buy/Sell')),
-                          DataCell(myText('Buy/Sell')),
-                        ],
-                      ),
-                      DataRow(cells: [
-                        DataCell(myText(
-                          DateTime.now().format(DateFormats.europeanAbbr),
-                        )),
-                        DataCell(myText(dataPage.usdBuyRates +
-                            '/' +
-                            dataPage.usdSellRates)),
-                        DataCell(myText(dataPage.gbpBuyRates +
-                            '/' +
-                            dataPage.gbpSellRates)),
-                        DataCell(myText(dataPage.eurBuyRates +
-                            '/' +
-                            dataPage.eurSellRates)),
-                        DataCell(myText(dataPage.cadBuyRates +
-                            '/' +
-                            dataPage.cadSellRates)),
-                      ]),
-                      DataRow(cells: [
-                        DataCell(myText(
-                          DateTime.now().format(DateFormats.europeanAbbr),
-                        )),
-                        DataCell(myText(dataPage.usdBuyRates +
-                            '/' +
-                            dataPage.usdSellRates)),
-                        DataCell(myText(dataPage.gbpBuyRates +
-                            '/' +
-                            dataPage.gbpSellRates)),
-                        DataCell(myText(dataPage.eurBuyRates +
-                            '/' +
-                            dataPage.eurSellRates)),
-                        DataCell(myText(dataPage.cadBuyRates +
-                            '/' +
-                            dataPage.cadSellRates)),
-                      ]),
-                      DataRow(cells: [
-                        DataCell(myText(
-                          DateTime.now().format(DateFormats.europeanAbbr),
-                        )),
-                        DataCell(myText(dataPage.usdBuyRates +
-                            '/' +
-                            dataPage.usdSellRates)),
-                        DataCell(myText(dataPage.gbpBuyRates +
-                            '/' +
-                            dataPage.gbpSellRates)),
-                        DataCell(myText(dataPage.eurBuyRates +
-                            '/' +
-                            dataPage.eurSellRates)),
-                        DataCell(myText(dataPage.cadBuyRates +
-                            '/' +
-                            dataPage.cadSellRates)),
-                      ]),
-                      DataRow(cells: [
-                        DataCell(myText(
-                          DateTime.now().format(DateFormats.europeanAbbr),
-                        )),
-                        DataCell(myText(dataPage.usdBuyRates +
-                            '/' +
-                            dataPage.usdSellRates)),
-                        DataCell(myText(dataPage.gbpBuyRates +
-                            '/' +
-                            dataPage.gbpSellRates)),
-                        DataCell(myText(dataPage.eurBuyRates +
-                            '/' +
-                            dataPage.eurSellRates)),
-                        DataCell(myText(dataPage.cadBuyRates +
-                            '/' +
-                            dataPage.cadSellRates)),
-                      ]),
-                    ]),
-                  ],
-                ),
-              ),
-              Container(
-                padding: EdgeInsets.fromLTRB(50, 50, 50, 50),
-                child: Center(
-                  child: Row(
+          body: SingleChildScrollView(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                Container(
+                  color: Colors.grey[800],
+                  padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
+                  child: Column(
                     children: [
-                      Buttons1(
-                        'Sell',
-                        () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => SellPage()),
-                          );
-                        },
-                        Colors.red,
+                      Container(
+                        color: Colors.grey[900],
+                        padding:
+                            EdgeInsets.symmetric(horizontal: 135, vertical: 10),
+                        child: Text(
+                          'Exchange Rate',
+                          style: TextStyle(fontSize: 16),
+                        ),
                       ),
-                      Buttons1(
-                        'Buy',
-                        () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => BuyPage()),
-                          );
-                        },
-                        Colors.blue,
-                      ),
+                      DataTable(columnSpacing: 30.0, columns: [
+                        DataColumn(
+                          label: Row(
+                            children: [
+                              myText('Naira'),
+                              Flag(
+                                'NG',
+                                width: 25,
+                                height: 15,
+                              ),
+                            ],
+                          ),
+                        ),
+                        DataColumn(
+                          label: Row(
+                            children: [
+                              myText('USD'),
+                              Flag(
+                                'US',
+                                width: 25,
+                                height: 15,
+                              ),
+                            ],
+                          ),
+                        ),
+                        DataColumn(
+                          label: Row(children: [
+                            myText('GBP'),
+                            Flag(
+                              'GB',
+                              width: 25,
+                              height: 15,
+                            ),
+                          ]),
+                        ),
+                        DataColumn(
+                          label: Row(children: [
+                            myText('Euro'),
+                            Flag(
+                              'EU',
+                              width: 25,
+                              height: 15,
+                            ),
+                          ]),
+                        ),
+                        DataColumn(
+                          label: Row(children: [
+                            myText('CAD'),
+                            Flag(
+                              'CA',
+                              width: 25,
+                              height: 15,
+                            ),
+                          ]),
+                        )
+                      ], rows: [
+                        DataRow(
+                          cells: [
+                            DataCell(myText('Date')),
+                            DataCell(myText('Buy/Sell')),
+                            DataCell(myText('Buy/Sell')),
+                            DataCell(myText('Buy/Sell')),
+                            DataCell(myText('Buy/Sell')),
+                          ],
+                        ),
+                        DataRow(cells: [
+                          DataCell(myText(
+                            DateTime.now().format(DateFormats.europeanAbbr),
+                          )),
+                          DataCell(myText(dataPage.usdBuyRates +
+                              '/' +
+                              dataPage.usdSellRates)),
+                          DataCell(myText(dataPage.gbpBuyRates +
+                              '/' +
+                              dataPage.gbpSellRates)),
+                          DataCell(myText(dataPage.eurBuyRates +
+                              '/' +
+                              dataPage.eurSellRates)),
+                          DataCell(myText(dataPage.cadBuyRates +
+                              '/' +
+                              dataPage.cadSellRates)),
+                        ]),
+                        DataRow(cells: [
+                          DataCell(myText(
+                            DateTime.now().format(DateFormats.europeanAbbr),
+                          )),
+                          DataCell(myText(dataPage.usdBuyRates +
+                              '/' +
+                              dataPage.usdSellRates)),
+                          DataCell(myText(dataPage.gbpBuyRates +
+                              '/' +
+                              dataPage.gbpSellRates)),
+                          DataCell(myText(dataPage.eurBuyRates +
+                              '/' +
+                              dataPage.eurSellRates)),
+                          DataCell(myText(dataPage.cadBuyRates +
+                              '/' +
+                              dataPage.cadSellRates)),
+                        ]),
+                        DataRow(cells: [
+                          DataCell(myText(
+                            DateTime.now().format(DateFormats.europeanAbbr),
+                          )),
+                          DataCell(myText(dataPage.usdBuyRates +
+                              '/' +
+                              dataPage.usdSellRates)),
+                          DataCell(myText(dataPage.gbpBuyRates +
+                              '/' +
+                              dataPage.gbpSellRates)),
+                          DataCell(myText(dataPage.eurBuyRates +
+                              '/' +
+                              dataPage.eurSellRates)),
+                          DataCell(myText(dataPage.cadBuyRates +
+                              '/' +
+                              dataPage.cadSellRates)),
+                        ]),
+                        DataRow(cells: [
+                          DataCell(myText(
+                            DateTime.now().format(DateFormats.europeanAbbr),
+                          )),
+                          DataCell(myText(dataPage.usdBuyRates +
+                              '/' +
+                              dataPage.usdSellRates)),
+                          DataCell(myText(dataPage.gbpBuyRates +
+                              '/' +
+                              dataPage.gbpSellRates)),
+                          DataCell(myText(dataPage.eurBuyRates +
+                              '/' +
+                              dataPage.eurSellRates)),
+                          DataCell(myText(dataPage.cadBuyRates +
+                              '/' +
+                              dataPage.cadSellRates)),
+                        ]),
+                      ]),
                     ],
                   ),
                 ),
-              ),
-            ],
+                Container(
+                  padding: EdgeInsets.fromLTRB(50, 50, 50, 50),
+                  child: Center(
+                    child: Row(
+                      children: [
+                        Buttons1(
+                          'Sell',
+                          () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => SellPage()),
+                            );
+                          },
+                          Colors.red,
+                        ),
+                        Buttons1(
+                          'Buy',
+                          () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => BuyPage()),
+                            );
+                          },
+                          Colors.blue,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ),

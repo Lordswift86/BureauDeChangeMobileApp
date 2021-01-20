@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'package:Flutter/screens/ccDetail.dart';
+import 'package:Flutter/screens/signin.dart';
 import 'package:Flutter/widgets/drawer/drawer.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:image_picker/image_picker.dart';
@@ -185,6 +186,10 @@ class _ProfilePageState extends State<ProfilePage> {
                         icon: Icon(Icons.arrow_forward_ios),
                         onPressed: () {
                           FirebaseAuth.instance.signOut();
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => SignInPage()));
                         })
                   ],
                 ),
