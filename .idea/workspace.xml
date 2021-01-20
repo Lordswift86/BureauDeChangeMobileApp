@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="864a204c-2328-41fb-ae55-e06039a2945e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/homePage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/homePage.dart" afterDir="false" />
-    </list>
+    <list default="true" id="864a204c-2328-41fb-ae55-e06039a2945e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Izundu Emenike &lt;izunduemmy@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -85,18 +87,31 @@
       <option name="project" value="LOCAL" />
       <updated>1611145976368</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="A Mobile bureau de change">
+      <created>1611146942908</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611146942908</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="A Mobile bureau de change" />
     <option name="LAST_COMMIT_MESSAGE" value="A Mobile bureau de change" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="150" y="23" key="CommitChangelistDialog2" timestamp="1611145972968">
+    <state x="604" y="278" key="#Notifications" timestamp="1611147082653">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="150" y="23" key="CommitChangelistDialog2/0.23.1440.821@0.23.1440.821" timestamp="1611145972968" />
+    <state x="604" y="278" key="#Notifications/0.23.1440.821@0.23.1440.821" timestamp="1611147082653" />
+    <state x="150" y="23" key="CommitChangelistDialog2" timestamp="1611146942709">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="150" y="23" key="CommitChangelistDialog2/0.23.1440.821@0.23.1440.821" timestamp="1611146942709" />
     <state x="150" y="23" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1611143011844" />
     <state x="578" y="342" key="Github.ShareDialog" timestamp="1611143510840">
       <screen x="0" y="23" width="1440" height="822" />
@@ -126,10 +141,10 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="212" y="23" width="1024" height="821" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1611145475302" />
-    <state x="324" y="156" key="Vcs.Push.Dialog.v2" timestamp="1611146148254">
+    <state x="324" y="156" key="Vcs.Push.Dialog.v2" timestamp="1611146961181">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="324" y="156" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1611146148254" />
+    <state x="324" y="156" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1611146961181" />
     <state x="324" y="156" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1611143201599" />
     <state x="491" y="325" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1611142635497">
       <screen x="0" y="23" width="1440" height="822" />
