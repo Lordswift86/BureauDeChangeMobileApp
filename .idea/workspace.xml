@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="864a204c-2328-41fb-ae55-e06039a2945e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/assets/emmie.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/387313eb9f9b8e069d91546b85f10ec4/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/387313eb9f9b8e069d91546b85f10ec4/.filecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/387313eb9f9b8e069d91546b85f10ec4/outputs.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/387313eb9f9b8e069d91546b85f10ec4/outputs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/lib/assets/emmie.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/lib/assets/emmie.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/lib/assets/timi2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/lib/assets/timi2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/lib/assets/timi3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/lib/assets/timi3.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/lib/assets/timi4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/lib/assets/timi4.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/homePage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/homePage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/buttons1.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/buttons1.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +12,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1nKXkuXql2wex7LYV0opPP8n4LF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -95,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611143012928</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="A Mobile bureau de change">
+      <created>1611145976368</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611145976368</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -103,38 +93,43 @@
     <option name="LAST_COMMIT_MESSAGE" value="A Mobile bureau de change" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="150" y="23" key="CommitChangelistDialog2" timestamp="1611143011844">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state x="150" y="23" key="CommitChangelistDialog2" timestamp="1611145972968">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state x="150" y="23" key="CommitChangelistDialog2/0.23.1440.821@0.23.1440.821" timestamp="1611145972968" />
     <state x="150" y="23" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1611143011844" />
     <state x="578" y="342" key="Github.ShareDialog" timestamp="1611143510840">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="578" y="342" key="Github.ShareDialog/0.23.1440.822@0.23.1440.822" timestamp="1611143510840" />
-    <state width="699" height="198" key="GridCell.Tab.0.bottom" timestamp="1611144337912">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="699" height="198" key="GridCell.Tab.0.bottom" timestamp="1611146317521">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state width="699" height="198" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1611146317521" />
     <state width="699" height="198" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1611144337912" />
-    <state width="699" height="198" key="GridCell.Tab.0.center" timestamp="1611144337910">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="699" height="198" key="GridCell.Tab.0.center" timestamp="1611146317519">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state width="699" height="198" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1611146317519" />
     <state width="699" height="198" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1611144337910" />
-    <state width="699" height="198" key="GridCell.Tab.0.left" timestamp="1611144337908">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="699" height="198" key="GridCell.Tab.0.left" timestamp="1611146317517">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state width="699" height="198" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1611146317517" />
     <state width="699" height="198" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1611144337908" />
-    <state width="699" height="198" key="GridCell.Tab.0.right" timestamp="1611144337911">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="699" height="198" key="GridCell.Tab.0.right" timestamp="1611146317520">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state width="699" height="198" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1611146317520" />
     <state width="699" height="198" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1611144337911" />
     <state x="212" y="23" width="1024" height="821" key="SettingsEditor" timestamp="1611145475302">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="212" y="23" width="1024" height="821" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1611145475302" />
-    <state x="324" y="156" key="Vcs.Push.Dialog.v2" timestamp="1611143201599">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state x="324" y="156" key="Vcs.Push.Dialog.v2" timestamp="1611146148254">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="324" y="156" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1611141201182" />
+    <state x="324" y="156" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1611146148254" />
     <state x="324" y="156" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1611143201599" />
     <state x="491" y="325" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1611142635497">
       <screen x="0" y="23" width="1440" height="822" />

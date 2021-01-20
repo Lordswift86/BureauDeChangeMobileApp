@@ -219,7 +219,9 @@ class _HomeState extends State<Home> {
                           },
                           Colors.red,
                         ),
-                        Spacer(flex: 5,),
+                        Spacer(
+                          flex: 5,
+                        ),
                         Buttons1(
                           'Buy',
                           () {
