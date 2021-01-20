@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="864a204c-2328-41fb-ae55-e06039a2945e" name="Default Changelist" comment="" />
+    <list default="true" id="864a204c-2328-41fb-ae55-e06039a2945e" name="Default Changelist" comment="A Mobile bureau de change" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611146942908</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="A Mobile bureau de change">
+      <created>1611147131781</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611147131781</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -108,10 +115,10 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="604" y="278" key="#Notifications/0.23.1440.821@0.23.1440.821" timestamp="1611147082653" />
-    <state x="150" y="23" key="CommitChangelistDialog2" timestamp="1611146942709">
+    <state x="150" y="23" key="CommitChangelistDialog2" timestamp="1611147313411">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="150" y="23" key="CommitChangelistDialog2/0.23.1440.821@0.23.1440.821" timestamp="1611146942709" />
+    <state x="150" y="23" key="CommitChangelistDialog2/0.23.1440.821@0.23.1440.821" timestamp="1611147313411" />
     <state x="150" y="23" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1611143011844" />
     <state x="578" y="342" key="Github.ShareDialog" timestamp="1611143510840">
       <screen x="0" y="23" width="1440" height="822" />
@@ -141,14 +148,15 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="212" y="23" width="1024" height="821" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1611145475302" />
-    <state x="324" y="156" key="Vcs.Push.Dialog.v2" timestamp="1611146961181">
+    <state x="324" y="156" key="Vcs.Push.Dialog.v2" timestamp="1611147183255">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="324" y="156" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1611146961181" />
+    <state x="324" y="156" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1611147183255" />
     <state x="324" y="156" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1611143201599" />
-    <state x="491" y="325" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1611142635497">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state x="491" y="325" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1611147465787">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state x="491" y="325" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.821@0.23.1440.821" timestamp="1611147465787" />
     <state x="491" y="325" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.822@0.23.1440.822" timestamp="1611142635497" />
   </component>
 </project>
