@@ -60,7 +60,7 @@ class _HomeState extends State<Home> {
                       Container(
                         color: Colors.grey[900],
                         padding:
-                            EdgeInsets.symmetric(horizontal: 135, vertical: 10),
+                            EdgeInsets.symmetric(horizontal: 150, vertical: 10),
                         child: Text(
                           'Exchange Rate',
                           style: TextStyle(fontSize: 16),
@@ -70,7 +70,7 @@ class _HomeState extends State<Home> {
                         DataColumn(
                           label: Row(
                             children: [
-                              myText('Naira'),
+                              myText('NG'),
                               Flag(
                                 'NG',
                                 width: 25,
@@ -219,6 +219,7 @@ class _HomeState extends State<Home> {
                           },
                           Colors.red,
                         ),
+                        Spacer(flex: 5,),
                         Buttons1(
                           'Buy',
                           () {

@@ -9,6 +9,9 @@ class Buttons1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: ButtonTheme(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(10.0),
+        ),
         minWidth: 150,
         height: 50,
         child: RaisedButton(
